@@ -1,0 +1,146 @@
+\documentclass[a4paper]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.00in, bottom=0.00in, left=0.15in, right=0.50in,nohead,nofoot]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\selectfont
+
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\thispagestyle{empty}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+\vspace*{-20pt}%
+\enlargethispage{40pt}%
+
+\begin{document}
+
+\hspace{0.5cm}\\[-0.2cm]
+
+\textbf{Pratik Vaishnavi} \\
+\indent Email-id : \textbf{pvaishnavi@cs.stonybrook.edu} \\
+\indent Mobile No.: \textbf{+1 (631) 913-5620} \\
+
+\resheading{\textbf{ACADEMIC DETAILS} }\\[\lsep]
+\\ \\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \begin{tabular}{ l @{\hskip 0.55in} l @{\hskip 0.55in} l @{\hskip 0.55in} l @{\hskip 0.55in} l }
+\hline
+\textbf{Degree} & \textbf{University} & \textbf{Department} & \textbf{Duration} & \textbf{CGPA} \\
+\hline
+MS & Stony Brook University & Computer Science & 2016-2018 & 3.59/4 \\
+B.Tech & National Institute of Technology, Surat & Electronics and Comm. & 2012-2016 & 7.43/10\\
+\hline
+\end{tabular}
+%\end{center}
+%\end{table}
+\\ \\
+
+\resheading{\textbf{SKILLS} }\\[\lsep]
+\begin{itemize}
+\item \noindent \textbf{Languages} (Python > JQuery > SQL > C >= C++),  \textbf{Software} (MATLAB, LaTeX), \textbf{Toolboxes} (MatConvnet, Theano, Lasagne, Caffe, OpenCV-Python, Scikit-Learn, Flask, Requests), \textbf{OS} (Mac OS, Linux, Windows), \textbf{Other development tools} (GitHub, Docker, Hasura).
+\end{itemize}
+
+\resheading{\textbf{PUBLICATIONS} }\\[\lsep]
+\begin{itemize}
+\item \noindent Nrityabodha: Towards understanding Indian classical dance using a deep learning approach, Aparna Mohanty \textit{et. al.}\\Role: Co-Author | Signal Processing: Image Communication, Elsevier | Volume 47, September 2016, Pages 529–548
+\item \noindent Robust Pose Detection using Deep Learning, Aparna Mohanty \textit{et. al.} | Role: Co-Author\\
+ Proceedings of International Conference of Computer Vision and Image Processing CVIP-2016 | Advances in Intelligent Systems and Computing (AISC), Springer | Volume 2, Page 94
+\end{itemize}
+
+\resheading{\textbf{MAJOR PROJECTS} }\\[\lsep]
+\begin{itemize}
+\item \textbf{Tackling ambiguity due to multiple people in pose detection
+}(CSE-523, Advanced Project-I) \\
+ \emph{(Guide: Prof. Minh H. Nguyen
+, Aug'16 - till date)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Objective: Improving upon the performance of the Convolutional Pose Machines to give better results when multiple people are present in the frame.
+	\item Language/Toolboxes: Python, Caffe
+	\end{itemize}
+
+\item \textbf{Incorporating handcrafted features in Wide-ResNets} (Project, CSE-527) \\
+ \emph{(Guide: Prof. Minh H. Nguyen
+, Oct'16 - till date)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Objective: Modify the architecture of wide ResNets to add a path parallel to the skip connection for adding handcrafted features like Dense-SIFT and HOG to the output of the first Residual Unit.
+	\item Language/Toolboxes: Python, Lasagne
+	\end{itemize}
+
+
+\item \textbf{Dynamic hand gesture recognition using deep learning
+}(Summer Internship - IIT, Kharagpur) \\
+ \emph{(Guide: Prof. Rajiv R. Sahay
+, May'15 - Aug'15)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Objective: Use deep learning algorithms like CNN, CNN-SVM, transfer learning on standard as well as self-synthesised datasets for dynamic gesture recognition from videos.
+	\item Language/Toolboxes: Python, Theano, Lasagne, MATLAB, MatConvnet, Rasmus Berg Palm deep learning toolbox
+
+	\end{itemize}
+
+\item \textbf{Prescription based farming using UAVs
+}(B.tech Final year project) \\
+ \emph{(Guide: Prof. Anand D. Darji
+, Aug'15 - May'16)} \\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\item Objective: Develop and implement a model that uses the concepts of precision farming on aerial images of farms taken by UAVs to generate prescriptions for farming inputs. Develop a GUI for the same.
+	\item Languages/Software - Python, QGIS, HTML, JQuery
+
+	\end{itemize}
+\end{itemize}
+
+\resheading{\textbf{WORK EXPERIENCE} }\\[\lsep]
+\begin{itemize}
+\item \noindent \textbf{BOMPOD SOLUTIONS PVT. LTD.} \\
+\textbf{Job Title:} Technology Consultant \\
+\textbf{Duration:} Jan'16 - July'16 \\
+\textbf{Role:} Supervised the development of the technological framework to support the operations of this fresh produce supply-chain optimization start-up. Additionally, developed a custom POS and Inventory Management System suitable to the business operations, from scratch. The final framework consisted of 2 Android apps and 2 web apps. \\
+\textbf{Personal contributions:} \\ 1. Designed the entire database for the business to capture the information flowing between various inter-dependent processes, and implemented it on Postgres. Also designed algorithms for logistics optimization.\\ 2. Did the backend integration of the web apps including the POS and Inventory management system using JQuery, AJAX and custom APIs to the database, built using Python libraries - Flask and Requests. \\
+3. Analysis of live customer consumption data to map products with customer loyalty and in turn, come up with customized marketing schemes. \\
+4. All the development work was done using Hasura - an App development platform.
+\end{itemize}
+
+\resheading{\textbf{AWARDS AND ACHIEVEMENTS} }\\[\lsep]
+\begin{itemize}
+\item \noindent Best Solution, License Plate Recognition Challenge organized by Wipro Ltd on \textit{www.greymeter.com} \emph{(Jun'15)}.
+\end{itemize} 
+
+\resheading{\textbf{EXTRACURRICULARS} }\\[\lsep]
+\begin{itemize}
+\item \noindent Editor, Renesa - NIT Surat college newsletter
+\vspace*{-1.5mm}
+\item \noindent Member, Organizing Committee - Literary and Debating Club, NIT Surat
+\vspace*{-1.5mm}
+\item \noindent Co-coordinator, organizing committee | MindBend - Technical fest and Sparsh - Cultural fest | NIT Surat.
+\end{itemize}
+
+\end{document}
+
