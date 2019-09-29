@@ -1,4 +1,4 @@
 # Resume
 
-<b>Last updated:</b> 17th Feb 2017 <br />
-<b>Status:</b> Seeking internship for summer 2017
+<b>Last updated:</b> 28th Sept 2019 <br />
+<b>Status:</b> Seeking internship for summer 2019
